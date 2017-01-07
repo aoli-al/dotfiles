@@ -12,7 +12,9 @@
   {
     "link": {
       "~/.vim": "vim/",
-      "~/.vimrc": "vimrc"
+      "~/.vimrc": "vimrc",
+      "~/.gitconfig": "gitconfig",
+      "~/.gitignore": "gitignore"
     }
   },
   {
