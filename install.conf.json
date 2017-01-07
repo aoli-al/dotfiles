@@ -14,7 +14,8 @@
       "~/.vim": "vim/",
       "~/.vimrc": "vimrc",
       "~/.gitconfig": "gitconfig",
-      "~/.gitignore": "gitignore"
+      "~/.gitignore": "gitignore",
+      "~/.ycm_extra_conf.py": "ycm_extra_conf.py"
     }
   },
   {
