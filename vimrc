@@ -21,3 +21,6 @@ let g:ycm_confirm_extra_conf = 0
 
 let g:indentLine_enabled = 1
 let g:rainbow_active = 1
+
+" Remove trailling spaces
+autocmd BufWritePre * :%s/\s\+$//e
