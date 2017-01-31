@@ -8,3 +8,5 @@ compile_commands.json
 CTestTestfile.cmake
 *.swp
 *.swo
+
+cmake-build-debug/
