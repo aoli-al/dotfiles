@@ -8,6 +8,7 @@ set laststatus=2
 set smarttab
 set colorcolumn=80
 set conceallevel=0
+set clipboard=unnamedplus
 
 execute pathogen#infect()
 syntax on
