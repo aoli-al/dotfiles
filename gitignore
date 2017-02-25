@@ -9,4 +9,6 @@ CTestTestfile.cmake
 *.swp
 *.swo
 
+.idea/
+
 cmake-build-debug/
