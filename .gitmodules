@@ -31,3 +31,6 @@
 [submodule "vim/bundle/vim-pandoc-syntax"]
 	path = vim/bundle/vim-pandoc-syntax
 	url = https://github.com/vim-pandoc/vim-pandoc-syntax
+[submodule "vim/bundle/auto-pairs"]
+	path = vim/bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
