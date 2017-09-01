@@ -28,7 +28,7 @@ call glaive#Install()
 Glaive codefmt plugin[mappings]
 
 " Remove trailling spaces
-autocmd BufWritePre * :%s/\s\+$//e
+" autocmd BufWritePre * :%s/\s\+$//e
 
 let g:rainbow_conf = {
   \   'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick'],
