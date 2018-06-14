@@ -2,7 +2,8 @@
   {
     "defaults": {
       "link": {
-        "relink": true
+        "relink": true,
+        "force": true 
       }
     }
   },
@@ -11,16 +12,16 @@
   },
   {
     "link": {
-      "~/.vim": "vim/",
-      "~/.vimrc": "vimrc",
       "~/.gitconfig": "gitconfig",
       "~/.gitignore": "gitignore",
-      "~/.ycm_extra_conf.py": "ycm_extra_conf.py"
+      "~/.tmux.conf": "tmux.conf"
     }
   },
   {
     "shell": [
-      ["git submodule update --init --recursive", "Installing submodules"]
+      ["git submodule update --init --recursive", "Installing submodules"],
+      ["sh -c \"$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\"", "Installing oh-my-zsh"],
+      ["curl -sLf https://spacevim.org/install.sh | bash", "Installing SpaceVim"]
     ]
   }
 ]
