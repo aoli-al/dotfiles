@@ -14,7 +14,8 @@
     "link": {
       "~/.gitconfig": "gitconfig",
       "~/.gitignore": "gitignore",
-      "~/.tmux.conf": "tmux.conf"
+      "~/.tmux.conf": "tmux.conf",
+      "~/.SpaceVim.d/init.toml": "init.toml"
     }
   },
   {
