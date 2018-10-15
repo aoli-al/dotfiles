@@ -19,3 +19,4 @@ cmake-build-*/
 __pycache__/
 *.pyc
 nohup.out
+.DS_Store
