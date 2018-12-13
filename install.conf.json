@@ -13,6 +13,7 @@
   {
     "link": {
       "~/.gitconfig": "gitconfig",
+      "~/.zshrc": "zshrc",
       "~/.gitignore": "gitignore",
       "~/.SpaceVim.d/init.toml": "init.toml",
       "~/.byobu/.tmux.conf": "tmux.conf"
