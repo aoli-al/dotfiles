@@ -8,7 +8,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-PROMPT='🦁%{$fg_bold[blue]%}@%M %{$fg_bold[green]%}%p%{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}'
+PROMPT='🦁%{$fg_bold[yellow]%}@%M %{$fg_bold[green]%}%p%{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}'
 
 case `uname` in
   Darwin)
