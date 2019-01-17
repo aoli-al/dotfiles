@@ -15,12 +15,8 @@ case `uname` in
     export BYOBU_PREFIX=/usr/local
     alias vim=nvim
     alias vimdiff=nvim -d
-    export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-    source ~/Library/Python/3.7/bin/virtualenvwrapper.sh
   ;;
   Linux)
-    export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-    source ~/.local/bin/virtualenvwrapper.sh
   ;;
 esac
 export CLICOLOR=1
@@ -28,3 +24,6 @@ export TERM=xterm-256color
 if [[ -a ${ZDOTDIR:-${HOME}}/.zshrc-local ]]; then
   source "${ZDOTDIR:-${HOME}}/.zshrc-local"
 fi
+
+# opam configuration
+test -r /Users/leo/.opam/opam-init/init.zsh && . /Users/leo/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
