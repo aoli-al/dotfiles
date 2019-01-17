@@ -1,0 +1,16 @@
+Created temporary directory: /private/var/folders/zc/3h5vsq3536v3lvnjhskx278r0000gn/T/pip-ephem-wheel-cache-v799xgo9
+Created temporary directory: /private/var/folders/zc/3h5vsq3536v3lvnjhskx278r0000gn/T/pip-req-tracker-2t6ucc1m
+Created requirements tracker '/private/var/folders/zc/3h5vsq3536v3lvnjhskx278r0000gn/T/pip-req-tracker-2t6ucc1m'
+Created temporary directory: /private/var/folders/zc/3h5vsq3536v3lvnjhskx278r0000gn/T/pip-install-hl98zm6a
+Cleaning up...
+Removed build tracker '/private/var/folders/zc/3h5vsq3536v3lvnjhskx278r0000gn/T/pip-req-tracker-2t6ucc1m'
+ERROR: You must give at least one requirement to install (see "pip help install")
+Exception information:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/pip/_internal/cli/base_command.py", line 143, in main
+    status = self.run(options, args)
+  File "/usr/local/lib/python3.7/site-packages/pip/_internal/commands/install.py", line 293, in run
+    self.name, wheel_cache
+  File "/usr/local/lib/python3.7/site-packages/pip/_internal/cli/base_command.py", line 252, in populate_requirement_set
+    '(see "pip help %(name)s")' % opts)
+pip._internal.exceptions.CommandError: You must give at least one requirement to install (see "pip help install")
