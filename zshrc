@@ -24,6 +24,3 @@ export TERM=xterm-256color
 if [[ -a ${ZDOTDIR:-${HOME}}/.zshrc-local ]]; then
   source "${ZDOTDIR:-${HOME}}/.zshrc-local"
 fi
-
-# opam configuration
-test -r /Users/leo/.opam/opam-init/init.zsh && . /Users/leo/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
