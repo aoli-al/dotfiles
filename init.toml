@@ -31,5 +31,8 @@ default_height = 30
 [[layers]]
 name = 'lang#solidity'
 
+[[layers]]
+name = "lang#ocaml"
+
 [[custom_plugins]]
 name='bohlender/vim-smt2'
