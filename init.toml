@@ -34,5 +34,8 @@ name = 'lang#solidity'
 [[layers]]
 name = "lang#ocaml"
 
+[[layers]]
+name = "lang#haskell"
+
 [[custom_plugins]]
 name='bohlender/vim-smt2'
