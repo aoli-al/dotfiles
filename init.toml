@@ -16,6 +16,7 @@
     enable_tabline_filetype_icon = true
     enable_statusline_display_mode = false
     max_column = 80
+    automatic_update = 1
 
 # Enable autocomplete layer
 [[layers]]

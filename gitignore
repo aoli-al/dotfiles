@@ -19,5 +19,7 @@ __pycache__/
 *.pyc
 nohup.out
 .DS_Store
+.vscode/
 
 *-virtualbox/
+.antlr/

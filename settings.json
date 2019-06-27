@@ -33,7 +33,6 @@
             ]
         }
     ],
-    "editor.wordWrap": "on",
     "cSpell.userWords": [
         "attackable",
         "blockchain",
@@ -83,7 +82,12 @@
     "editor.tabSize": 2,
     "terminal.integrated.fontSize": 14,
     "files.autoSave": "afterDelay",
-    "vim.useSystemClipboard": true,
     "languageServerHaskell.useCustomHieWrapperPath": "hie-wrapper",
-    "languageServerHaskell.useCustomHieWrapper": true
+    "languageServerHaskell.useCustomHieWrapper": true,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Complete Dark",
+    "editor.minimap.enabled": false,
+    "vim.overrideCopy": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.trimTrailingWhitespace": true
 }
