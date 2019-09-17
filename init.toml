@@ -17,6 +17,7 @@
     enable_statusline_display_mode = false
     max_column = 80
     automatic_update = 1
+    project_rooter_automatically = 0
 
 # Enable autocomplete layer
 [[layers]]
@@ -38,5 +39,11 @@ name = "lang#ocaml"
 [[layers]]
 name = "lang#haskell"
 
+[[layers]]
+  name = "lang#python"
+
 [[custom_plugins]]
 name='bohlender/vim-smt2'
+
+[[layers]]
+  name = "lang#rust"
