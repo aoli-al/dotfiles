@@ -16,7 +16,7 @@
     enable_tabline_filetype_icon = true
     enable_statusline_display_mode = false
     max_column = 80
-    automatic_update = 1
+    automatic_update = true
     project_rooter_automatically = 0
 
 # Enable autocomplete layer
@@ -43,7 +43,10 @@ name = "lang#haskell"
   name = "lang#python"
 
 [[custom_plugins]]
-name='bohlender/vim-smt2'
+  name='bohlender/vim-smt2'
 
 [[layers]]
   name = "lang#rust"
+
+[[layers]]
+  name = "lang#racket"
