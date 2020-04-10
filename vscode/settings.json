@@ -87,9 +87,7 @@
     "explorer.confirmDelete": false,
     "workbench.colorTheme": "Complete Dark",
     "editor.minimap.enabled": false,
-    "vim.overrideCopy": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "files.trimTrailingWhitespace": true,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -153,5 +151,9 @@
     ],
     "python.disableInstallationCheck": true,
     "explorer.confirmDragAndDrop": false,
-    "solidity.compileUsingRemoteVersion": "v0.5.16+commit.9c3226ce"
+    "solidity.linter": "solhint",
+    "solidity.enabledSolium": false,
+    "solidity.packageDefaultDependenciesContractsDirectory": "",
+    "solidity.packageDefaultDependenciesDirectory": "node_modules",
+    "solidity.compileUsingRemoteVersion": "v0.5.17+commit.d19bba13"
 }

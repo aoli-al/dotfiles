@@ -24,6 +24,10 @@
       "~/.config/Code/User//keybindings.json":  {
         "if": "[ `uname` = Linux ]",
         "path": "./vscode/keybindings.json"
+      },
+      "~/.local/share/konsole":  {
+        "if": "[ `uname` = Linux ]",
+        "path": "./konsole"
       }
     }
   },
