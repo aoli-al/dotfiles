@@ -25,20 +25,12 @@
         "if": "[ `uname` = Darwin ]",
         "path": "./vscode/keybindings.json"
       },
-      "/mnt/c/Users/leele/AppData/Roaming/Code/User/settings.json": {
-        "if": "[[ `uname` = Linux ]] && [[ `grep microsoft /proc/version` ]]",
-        "path": "./vscode/settings.json"
-      },
       "~/.config/Code/User/settings.json": {
-        "if": "[[ `uname` = Linux ]] && [ ! [ `grep microsoft /proc/version` ]]",
+        "if": "[ `uname` = Linux ]",
         "path": "./vscode/settings.json"
-      },
-      "/mnt/c/Users/leele/AppData/Roaming/Code/User/keybindings.json": {
-        "if": "[[ `uname` = Linux ]] && [[ `grep microsoft /proc/version` ]]",
-        "path": "./vscode/keybindings.json"
       },
       "~/.config/Code/User/keybindings.json":  {
-        "if": "[[ `uname` = Linux ]] && [ ! [ `grep microsoft /proc/version` ]]",
+        "if": "[ `uname` = Linux ]",
         "path": "./vscode/keybindings.json"
       },
       "~/.local/share/konsole":  {
