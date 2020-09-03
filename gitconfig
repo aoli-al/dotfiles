@@ -3,6 +3,7 @@
 	name = Leeleo3x
 [core]
 	excludesfile = ~/.gitignore
+	autocrlf = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
