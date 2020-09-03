@@ -18,6 +18,7 @@
     max_column = 80
     automatic_update = true
     project_rooter_automatically = 0
+    vimcompatible = true
 
 # Enable autocomplete layer
 [[layers]]
