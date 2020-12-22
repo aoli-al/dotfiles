@@ -53,3 +53,6 @@ name = "lang#haskell"
 
 [[layers]]
   name = "lang#racket"
+
+[[layers]]
+  name = "lang#c"

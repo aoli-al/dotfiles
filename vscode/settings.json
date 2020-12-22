@@ -143,7 +143,11 @@
         "Obj/": true,
         "ProjectSettings/": true,
         "temp/": true,
-        "Temp/": true
+        "Temp/": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
     },
     "cmake.configureOnOpen": true,
     "cmake.configureArgs": [
@@ -156,5 +160,10 @@
     "solidity.packageDefaultDependenciesContractsDirectory": "",
     "solidity.packageDefaultDependenciesDirectory": "node_modules",
     "solidity.compileUsingRemoteVersion": "v0.5.17+commit.d19bba13",
-    "terminal.integrated.inheritEnv": false
+    "terminal.integrated.inheritEnv": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "java.project.importHint": false
 }
