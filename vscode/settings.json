@@ -165,5 +165,10 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.languageServer": "Microsoft",
     "terminal.integrated.shell.linux": "/bin/zsh",
-    "java.project.importHint": false
+    "java.project.importHint": false,
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    }
 }
