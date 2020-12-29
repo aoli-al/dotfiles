@@ -21,6 +21,7 @@ case `uname` in
 esac
 export CLICOLOR=1
 export TERM=xterm-256color
+export PATH=$PATH:$HOME/.local/bin
 if [[ -a ${ZDOTDIR:-${HOME}}/.zshrc-local ]]; then
   source "${ZDOTDIR:-${HOME}}/.zshrc-local"
 fi
