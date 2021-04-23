@@ -56,3 +56,6 @@ name = "lang#haskell"
 
 [[layers]]
   name = "lang#c"
+
+[[layers]]
+  name = "lang#java"
