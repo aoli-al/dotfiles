@@ -20,6 +20,9 @@
       "~/.local/share/konsole":  {
         "if": "[ `uname` = Linux ]",
         "path": "./konsole"
+      },
+      "~/.ssh/config":  {
+        "path": "./ssh/config"
       }
     }
   },
