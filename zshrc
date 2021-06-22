@@ -22,6 +22,7 @@ esac
 export CLICOLOR=1
 export TERM=xterm-256color
 export PATH=$PATH:$HOME/.local/bin
+export PATH="${PATH}:$(python3 -c 'import site; print(site.USER_BASE)')/bin"
 if [[ -a ${ZDOTDIR:-${HOME}}/.zshrc-local ]]; then
   source "${ZDOTDIR:-${HOME}}/.zshrc-local"
 fi
