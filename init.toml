@@ -44,6 +44,7 @@ name = "lang#haskell"
 
 [[layers]]
   name = "lang#python"
+  enable_typeinfo = true
 
 [[custom_plugins]]
   name='bohlender/vim-smt2'
