@@ -44,9 +44,7 @@ name = "lang#haskell"
 
 [[layers]]
   name = "lang#python"
-  enable_typeinfo = true
   enabled_linters = ['pylint']
-  python_interpreter = '/usr/bin/python3'
 
 [[custom_plugins]]
   name='bohlender/vim-smt2'
