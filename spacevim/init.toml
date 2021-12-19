@@ -45,6 +45,12 @@ name = "lang#haskell"
 [[layers]]
   name = "lang#python"
   enabled_linters = ['pylint']
+  python_file_head = [
+      '#!/usr/bin/env python3',
+      '# -*- coding: utf-8 -*-',
+      '',
+      ''
+  ]
 
 [[custom_plugins]]
   name='bohlender/vim-smt2'
