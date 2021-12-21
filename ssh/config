@@ -1,4 +1,1 @@
-Host bucatini.isri.cmu.edu
-  HostName bucatini.isri.cmu.edu
-  ProxyJump linux.ece.cmu.edu
 
