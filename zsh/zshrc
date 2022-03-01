@@ -27,3 +27,4 @@ export PATH="${PATH}:$(python3 -c 'import site; print(site.USER_BASE)')/bin"
 if [[ -a ${ZDOTDIR:-${HOME}}/.zshrc-local ]]; then
   source "${ZDOTDIR:-${HOME}}/.zshrc-local"
 fi
+
