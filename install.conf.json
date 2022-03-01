@@ -10,7 +10,10 @@
   {
     "shell": [
       ["git submodule update --init --recursive", "Installing submodules"],
-      ["bash ./setup.sh", "Installing common softwares"]
+      {
+        "command": "bash ./setup.sh",
+        "stdout": true
+      }
     ]
   },
   {
@@ -23,7 +26,10 @@
         "path": "./spacevim/neomake_python_config.vim",
         "create": true
       },
-      "~/.byobu/.tmux.conf": "tmux.conf",
+      "~/.byobu/.tmux.conf": {
+        "path": "tmux.conf",
+        "create": true
+      },
       "~/.local/share/konsole":  {
         "if": "[ `uname` = Linux ]",
         "path": "./konsole"
