@@ -2,6 +2,8 @@ if [ "$(uname)" == "Darwin" ]; then
   brew install neovim
   brew install byobu
 else 
+  sudo apt update
+  sudo apt upgrade -y
   sudo apt install -y neovim byobu zsh
 fi
 
