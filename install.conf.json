@@ -10,7 +10,7 @@
   {
     "shell": [
       ["git submodule update --init --recursive", "Installing submodules"],
-      ["sh ./setup.sh", "Installing common softwares"]
+      ["bash ./setup.sh", "Installing common softwares"]
   },
   {
     "link": {

@@ -2,9 +2,7 @@ if [ "$(uname)" == "Darwin" ]; then
   brew install neovim
   brew install byobu
 else 
-  sudo apt install neovim
-  sudo apt install byobu
-  sudo apt install zsh
+  sudo apt install -y neovim byobu zsh
 fi
 
 sh -c \"$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)
