@@ -19,6 +19,7 @@
   {
     "link": {
       "~/.gitconfig": "./git/gitconfig",
+      "~/.pylintrc": "./pylint/pylintrc",
       "~/.gitignore": "./git/gitignore",
       "~/.zshrc": "./zsh/zshrc",
       "~/.SpaceVim.d/init.toml": "./spacevim/init.toml",
