@@ -22,6 +22,11 @@
       "~/.pylintrc": "./pylint/pylintrc",
       "~/.gitignore": "./git/gitignore",
       "~/.zshrc": "./zsh/zshrc",
+      "~/.SpaceVim.d/init.toml": "./spacevim/init.toml",
+      "~/.SpaceVim.d/autoload/neomake_python_config.vim": {
+        "path": "./spacevim/neomake_python_config.vim",
+        "create": true
+      },
       "~/.byobu/.tmux.conf": {
         "path": "tmux.conf",
         "create": true
