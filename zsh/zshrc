@@ -28,4 +28,3 @@ if [[ -a ${ZDOTDIR:-${HOME}}/.zshrc-local ]]; then
   source "${ZDOTDIR:-${HOME}}/.zshrc-local"
 fi
 
-export PATH="/usr/local/opt/bison/bin:$PATH"
