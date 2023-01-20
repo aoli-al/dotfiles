@@ -44,7 +44,6 @@ name = "lang#haskell"
 
 [[layers]]
   name = "lang#python"
-  enabled_linters = ['pylint']
   python_file_head = [
       '#!/usr/bin/env python3',
       '# -*- coding: utf-8 -*-',
@@ -69,3 +68,5 @@ name = "lang#haskell"
 
 [options]
     bootstrap_before = "neomake_python_config#before"
+    project_rooter_automatically = 0
+    project_auto_root = 0
