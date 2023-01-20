@@ -70,3 +70,7 @@ name = "lang#haskell"
     bootstrap_before = "neomake_python_config#before"
     project_rooter_automatically = 0
     project_auto_root = 0
+
+[[layers]]
+    name = 'core'
+    enable_smooth_scrolling = false

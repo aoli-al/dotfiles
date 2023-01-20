@@ -24,3 +24,5 @@ nohup.out
 *-virtualbox/
 .antlr/
 results
+
+.java-version
