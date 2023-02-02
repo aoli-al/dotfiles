@@ -10,3 +10,7 @@ Host da0
 	Port 443
 	User aoli-al
 	
+Host cmu.aoli.al
+  HostName cmu.aoli.al
+  ProxyJump bucatini.isri.cmu.edu
+  User aoli
