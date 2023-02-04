@@ -5,6 +5,7 @@ else
   sudo apt update
   sudo apt upgrade -y
   sudo apt install -y neovim byobu zsh
+  git clone https://github.com/jenv/jenv.git ~/.jenv
 fi
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

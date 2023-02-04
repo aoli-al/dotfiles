@@ -37,6 +37,9 @@
       },
       "~/.ssh/config":  {
         "path": "./ssh/config"
+      },
+      "~/.config/nvim": {
+	"path": "~/.SpaceVim"
       }
     }
   }

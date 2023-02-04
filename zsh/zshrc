@@ -6,6 +6,7 @@ plugins=(
   git
 )
 
+export EDITOR=vim
 source $ZSH/oh-my-zsh.sh
 
 alias vim=nvim
