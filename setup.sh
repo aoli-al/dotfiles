@@ -4,7 +4,7 @@ if [ "$(uname)" == "Darwin" ]; then
 else 
   sudo apt update
   sudo apt upgrade -y
-  sudo apt install -y neovim byobu zsh
+  sudo apt install -y neovim byobu zsh curl
   git clone https://github.com/jenv/jenv.git ~/.jenv
 fi
 
