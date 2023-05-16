@@ -14,13 +14,6 @@ alias vimdiff=nvim -d
 
 PROMPT='🦁%{$fg_bold[yellow]%} %{$fg_bold[green]%}%p%{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}'
 
-case `uname` in
-  Darwin)
-    export BYOBU_PREFIX=/usr/local
-  ;;
-  Linux)
-  ;;
-esac
 export CLICOLOR=1
 export TERM=xterm-256color
 export PATH=$PATH:$HOME/.local/bin:$HOME/.cabal/bin
