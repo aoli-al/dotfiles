@@ -1,3 +1,38 @@
+
+### Start of WSSH Config Block ###
+
+##############################################################################################
+### ****                             IMPORTANT NOTICE                                 **** ###
+### **** PLEASE DO NOT PUT ANY CUSTOM CONFIGURATIONS IN BETWEEN THE WSSH CONFIG BLOCK **** ###
+### ****                WHEN WSSH UNINSTALLS THIS BLOCK WILL BE REMOVED              **** ###
+#############################################################################################
+
+# The following config is added by WSSH setup script to configure off-VPN dev-dsk access.
+Host dev-dsk-*.amazon.com
+  ProxyCommand=/usr/local/bin/wssh proxy %h
+  ServerAliveInterval 15
+  ServerAliveCountMax 44
+  User aolm
+
+
+# The following config is added by WSSH setup script to configure off-VPN dev-dsk access.
+Host *-clouddesk.aka.corp.amazon.com
+  ProxyCommand=/usr/local/bin/wssh proxy %h
+  ServerAliveInterval 15
+  ServerAliveCountMax 44
+  User aolm
+
+
+# The following config is added by WSSH setup script to configure off-VPN Git access.
+Host git.amazon.com
+  ProxyCommand=/usr/local/bin/wssh proxy %h --port=%p
+
+Host github.audible.com
+  ProxyCommand=/usr/local/bin/wssh proxy %h --port=%p
+
+
+Match all
+### End of WSSH Config Block ###
 Host localhost
   HostName localhost
   Port 2222
