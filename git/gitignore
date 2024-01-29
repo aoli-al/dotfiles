@@ -26,3 +26,4 @@ nohup.out
 results
 
 .java-version
+debug-preinst/
