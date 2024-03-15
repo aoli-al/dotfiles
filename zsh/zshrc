@@ -36,3 +36,9 @@ export NVM_DIR="$HOME/.nvm"
 export WASMTIME_HOME="$HOME/.wasmtime"
 
 export PATH="$WASMTIME_HOME/bin:$PATH"
+
+# Wasmer
+export WASMER_DIR="/home/aoli/.wasmer"
+[ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
+
+eval "$(atuin init zsh)"
