@@ -27,3 +27,4 @@ results
 
 .java-version
 debug-preinst/
+.venv
