@@ -44,15 +44,6 @@ default_height = 30
 name = "tools"
 
 [[layers]]
-name = 'lang#solidity'
-
-[[layers]]
-name = "lang#ocaml"
-
-[[layers]]
-name = "lang#haskell"
-
-[[layers]]
 name = "lang#python"
 python_file_head = [
   '#!/usr/bin/env python3',
@@ -60,12 +51,6 @@ python_file_head = [
   '',
   ''
 ]
-
-[[custom_plugins]]
-name='bohlender/vim-smt2'
-
-[[custom_plugins]]
-name='aoli-al/virgil-vim'
 
 [[layers]]
 name = "lang#rust"

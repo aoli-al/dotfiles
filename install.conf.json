@@ -27,6 +27,10 @@
         "path": "./spacevim/neomake_python_config.vim",
         "create": true
       },
+      "~/.config/atuin/config.toml": {
+        "path": "./atuin/config.toml",
+        "create": true
+      },
       "~/.byobu/.tmux.conf": {
         "path": "tmux.conf",
         "create": true
