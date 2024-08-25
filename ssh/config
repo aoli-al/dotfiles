@@ -47,5 +47,5 @@ Host da0
 	
 Host cmu.aoli.al
   HostName cmu.aoli.al
-  ProxyJump bucatini.isri.cmu.edu
+  ProxyJump rigatoni.isri.cmu.edu
   User aoli
